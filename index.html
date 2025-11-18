@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Modelo Cross+Border 3L - Servicios Premium</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -40,15 +42,16 @@
         .slide {
             min-width: 100vw;
             height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 70px 110px;
+            display: block;
+            /* permite flujo natural del contenido */
+            padding: 120px 110px 90px;
+            /* deja espacio para la barra superior y botones */
             position: relative;
             background: linear-gradient(135deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
             overflow-y: auto;
+            /* scroll vertical real */
         }
+
 
         .slide::before {
             content: '';
@@ -73,6 +76,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -125,7 +129,7 @@
             font-size: 1.25rem;
             line-height: 1.7;
             margin-bottom: 12px;
-            color: rgba(255,255,255,0.9);
+            color: rgba(255, 255, 255, 0.9);
             font-weight: 300;
         }
 
@@ -151,10 +155,10 @@
         }
 
         .logo-box {
-            background: rgba(255,255,255,0.95);
+            background: rgba(255, 255, 255, 0.95);
             padding: 30px 45px;
             border-radius: 20px;
-            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease;
         }
 
@@ -174,8 +178,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
         }
 
         /* LISTAS */
@@ -190,7 +201,7 @@
             margin-bottom: 10px;
             padding-left: 32px;
             position: relative;
-            color: rgba(255,255,255,0.9);
+            color: rgba(255, 255, 255, 0.9);
             font-weight: 300;
         }
 
@@ -359,7 +370,8 @@
                 font-size: 1.4rem;
             }
 
-            p, ul li {
+            p,
+            ul li {
                 font-size: 0.98rem;
             }
 
@@ -402,7 +414,8 @@
                 font-size: 2rem;
             }
 
-            .content-box, .column {
+            .content-box,
+            .column {
                 padding: 18px;
             }
 
@@ -453,6 +466,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="presentation" id="presentation">
         <!-- Slide 1: PORTADA -->
@@ -463,11 +477,13 @@
 
                 <div class="company-logos">
                     <div class="logo-box">
-                        <img src="https://i.ibb.co/JWPVkm7r/LOGOOKLATINO.png" alt="OK Latino Marketing Digital" class="oklat-logo-hero">
+                        <img src="https://i.ibb.co/JWPVkm7r/LOGOOKLATINO.png" alt="OK Latino Marketing Digital"
+                            class="oklat-logo-hero">
                     </div>
                     <div class="arrow-divider">→</div>
                     <div class="logo-box">
-                        <img src="https://i.ibb.co/Pk40B6y/Captura-de-pantalla-2025-11-18-141539.png" alt="I3PL" class="logo-3l">
+                        <img src="https://i.ibb.co/Pk40B6y/Captura-de-pantalla-2025-11-18-141539.png" alt="I3PL"
+                            class="logo-3l">
                     </div>
                 </div>
 
@@ -485,7 +501,8 @@
                 <div class="content-box">
                     <h3>Personalizamos tu valor agregado</h3>
 
-                    <p>¿Grabado con láser, estampado, bordado, impresiones (DTF, DTG, Subimación), etiquetado, ensamble ligero, empaquetado, creación de kits de productos o más?</p>
+                    <p>¿Grabado con láser, estampado, bordado, impresiones (DTF, DTG, Subimación), etiquetado, ensamble
+                        ligero, empaquetado, creación de kits de productos o más?</p>
 
                     <p style="font-weight: 600; margin-top: 10px;">Nosotros lo hacemos por ti.</p>
 
@@ -506,8 +523,10 @@
                     <li>Página dinámica</li>
                     <li>Campaña anti - fakenews</li>
                     <li>Videos informativos de cada servicios 3L</li>
-                    <li>En cada apartado tendrá opción para llenar un formulario y agendar una cita con un asesor profesional</li>
-                    <li>Se contestará de inmediato por correo al cliente y se enviará aviso al asesor manager vía mail</li>
+                    <li>En cada apartado tendrá opción para llenar un formulario y agendar una cita con un asesor
+                        profesional</li>
+                    <li>Se contestará de inmediato por correo al cliente y se enviará aviso al asesor manager vía mail
+                    </li>
                 </ul>
             </div>
         </div>
@@ -518,7 +537,8 @@
                 <h2>CAMPAÑA META</h2>
 
                 <ul>
-                    <li>Creación de gráficos para META Business en formato REEL o videos cortos (Shorts) redireccionados a todos los formatos de la plataforma.</li>
+                    <li>Creación de gráficos para META Business en formato REEL o videos cortos (Shorts) redireccionados
+                        a todos los formatos de la plataforma.</li>
                     <li>Los videos mostrarán en forma breve el flujo de trabajo de cada proceso.</li>
                 </ul>
 
@@ -531,7 +551,8 @@
                     <div class="etapa-divider"></div>
 
                     <h3 style="margin-bottom:8px;">Segunda transición</h3>
-                    <p>Mostrar el proceso desde la contratación del 3L Cross Border Premium, la transformación, personalización y producto final.</p>
+                    <p>Mostrar el proceso desde la contratación del 3L Cross Border Premium, la transformación,
+                        personalización y producto final.</p>
 
                     <div class="etapa-divider"></div>
 
@@ -554,7 +575,8 @@
                 <h2>Segmentación USA</h2>
 
                 <p style="font-style: italic; margin-bottom:26px;">
-                    Las campañas serán basadas en el análisis de información obtenidas del comportamiento de la competencia y de las aduanas en USA.
+                    Las campañas serán basadas en el análisis de información obtenidas del comportamiento de la
+                    competencia y de las aduanas en USA.
                 </p>
 
                 <div class="two-columns">
@@ -595,9 +617,13 @@
                     <li>Optimización de página web y formulario</li>
                     <li>Creación de contenido gráfico para página web</li>
                     <li>Creación de la sección anti-fakenews</li>
-                    <li>Inicio del proceso de posicionamiento de marca intensivo, generando una serie de videos cortos que resuman los distintos servicios de la empresa y las necesidades que resuelve, redirigiendo el tráfico a la página web optimizada.</li>
-                    <li>Estos videos serán pautados a nivel nacional (USA) con una segmentación enfocada en comercio, exportación, importación, transportación, almacenamiento, competencias y aduanas.</li>
-                    <li>La pauta es para generar una expectativa mayor respecto a la presencia nacional e internacional de la empresa 3L.</li>
+                    <li>Inicio del proceso de posicionamiento de marca intensivo, generando una serie de videos cortos
+                        que resuman los distintos servicios de la empresa y las necesidades que resuelve, redirigiendo
+                        el tráfico a la página web optimizada.</li>
+                    <li>Estos videos serán pautados a nivel nacional (USA) con una segmentación enfocada en comercio,
+                        exportación, importación, transportación, almacenamiento, competencias y aduanas.</li>
+                    <li>La pauta es para generar una expectativa mayor respecto a la presencia nacional e internacional
+                        de la empresa 3L.</li>
                 </ul>
 
                 <div class="etapa-divider"></div>
@@ -610,7 +636,8 @@
                 </div>
 
                 <ul>
-                    <li>Está segunda trabajará con el formulario implementado con 3L, para evaluar la información de los formularios y obtener opciones de mejora a través de la data.</li>
+                    <li>Está segunda trabajará con el formulario implementado con 3L, para evaluar la información de los
+                        formularios y obtener opciones de mejora a través de la data.</li>
                     <li>Una vez concluida la segunda etapa habremos logrado perfilar a los clientes potenciales.</li>
                 </ul>
             </div>
@@ -629,8 +656,10 @@
                 </div>
 
                 <ul>
-                    <li>Creación de videos comerciales por cada área de la empresa enfocada en la solución a un problema específico, cerrando cada video con un mensaje claro de un servicio integral.</li>
-                    <li>Captación de leads calificados filtrados en un formulario respecto al servicio que requiere.</li>
+                    <li>Creación de videos comerciales por cada área de la empresa enfocada en la solución a un problema
+                        específico, cerrando cada video con un mensaje claro de un servicio integral.</li>
+                    <li>Captación de leads calificados filtrados en un formulario respecto al servicio que requiere.
+                    </li>
                 </ul>
 
                 <div class="etapa-divider"></div>
@@ -643,9 +672,12 @@
                 </div>
 
                 <ul>
-                    <li>Evaluación integral de todo el proceso, desde la campaña, el filtro, el embudo de ventas, retroalimentación del tipo de clientes y información de los servicios más demandados.</li>
-                    <li>Selección de las campañas ganadoras para su réplica y modificación de las campañas con posibilidad de mejora.</li>
-                    <li>Creación de nuevo contenido según la información que nos arrojaron los clientes en sus formularios o en sus entrevistas.</li>
+                    <li>Evaluación integral de todo el proceso, desde la campaña, el filtro, el embudo de ventas,
+                        retroalimentación del tipo de clientes y información de los servicios más demandados.</li>
+                    <li>Selección de las campañas ganadoras para su réplica y modificación de las campañas con
+                        posibilidad de mejora.</li>
+                    <li>Creación de nuevo contenido según la información que nos arrojaron los clientes en sus
+                        formularios o en sus entrevistas.</li>
                 </ul>
             </div>
         </div>
@@ -663,7 +695,8 @@
                 </div>
 
                 <ul>
-                    <li>Creación del sistema de campañas anuales, basadas en el comportamiento del mercado y políticas internacionales.</li>
+                    <li>Creación del sistema de campañas anuales, basadas en el comportamiento del mercado y políticas
+                        internacionales.</li>
                 </ul>
             </div>
         </div>
@@ -672,7 +705,8 @@
     <!-- CONTROLES -->
     <div class="controls">
         <button id="prevBtn" onclick="prevSlide()"><span class="btn-text">← Anterior</span></button>
-        <button id="fsBtn" onclick="toggleFullscreen()"><span id="fsBtnText" class="btn-text">⛶ Pantalla completa</span></button>
+        <button id="fsBtn" onclick="toggleFullscreen()"><span id="fsBtnText" class="btn-text">⛶ Pantalla
+                completa</span></button>
         <button id="nextBtn" onclick="nextSlide()"><span class="btn-text">Siguiente →</span></button>
     </div>
 
@@ -799,4 +833,5 @@
         updateFullscreenButton();
     </script>
 </body>
+
 </html>
